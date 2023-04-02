@@ -1,0 +1,18 @@
+// Standard cases
+1. login with superadmin and get the klasses
+2. login with superadmin and get the klass with id
+3. login with superadmin and create the klass
+4. login with superadmin and update the klass with id
+5. login with superadmin and delete the klass with id
+
+// edge cases
+1. without using tokens test the error response whille getting all the students.
+2. without using tokens test the error response while getting the students with id.
+3. without using tokens test the error response while creating the students.
+4. without using tokens test the error response while updating the students with id.
+5. without using tokens and test the error response while deleting the students with id
+6. using tokens test the error response while creating the klass with duplicate klass name.
+7. using tokens test the error response while creating the klass without students name.
+8. using tokens test the error response while getting the students with invalid id.
+9. using tokens test the error response while updating the students with invalid id.
+10. using tokens test the error response while deleting the students with invalid id.
